@@ -90,6 +90,7 @@ export const pageQuery = graphql`
       id
       title
       slug
+      something
       featureImage {
         fluid(maxWidth: 1500) {
           base64
